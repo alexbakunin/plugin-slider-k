@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sliderK</title>
+
+  <style type="text/css">
+    #slider-k {
+      margin: 50px auto;
+      outline: 2px solid red;
+    }
+  </style>
+
+</head>
+<body>
+<h1 style="text-align: center;"><span style="color: red;">sliderK</span></h1>
+
+<!-- for sliderK -->
+<div id="slider-k"></div>
+<!-- for sliderK -->
+
+<script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slider-k.js"></script>
+<script>
+  $('#slider-k').sliderK({
+    timeOneImg: 8000,
+    timeChangeImg: 3000
+  });
+</script>
+</body>
+</html>
